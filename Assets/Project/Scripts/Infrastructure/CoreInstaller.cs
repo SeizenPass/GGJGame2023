@@ -1,4 +1,5 @@
-﻿using Project.SceneManagement;
+﻿using Project.Dialogue;
+using Project.SceneManagement;
 using Zenject;
 
 namespace Project.Infrastructure
@@ -8,6 +9,7 @@ namespace Project.Infrastructure
         public override void InstallBindings()
         {
             Container.Bind<SceneLoader>().AsSingle().NonLazy();
+            Container.Bind<DialogueProxy>().AsSingle().NonLazy();
         }
     }
 }

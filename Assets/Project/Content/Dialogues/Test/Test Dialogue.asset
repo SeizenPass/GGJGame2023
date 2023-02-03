@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53615572b52c4b828e7f0db1eead5d75, type: 3}
+  m_Name: Test Dialogue
+  m_EditorClassIdentifier: 
+  dialogues:
+  - actor: {fileID: 11400000, guid: 8766e040f20749747b28de0effd9ee36, type: 2}
+    avatar: {fileID: 11400000, guid: 571b0c262a6a00c4a9acc3faacb1a546, type: 2}
+    text: Test text!Test text!Test text!Test text!Test text!Test text!Test text!Test
+      text!Test text!Test text!Test text!Test text!Test text!Test text!Test text!Test
+      text!Test text!
+    avatarPosition: 1
+  - actor: {fileID: 11400000, guid: 8766e040f20749747b28de0effd9ee36, type: 2}
+    avatar: {fileID: 11400000, guid: 571b0c262a6a00c4a9acc3faacb1a546, type: 2}
+    text: Bruh what?
+    avatarPosition: 0
