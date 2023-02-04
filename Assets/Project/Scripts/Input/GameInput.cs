@@ -52,6 +52,34 @@ namespace Project.Input
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""Gameplay"",
+            ""id"": ""acc593b4-ebcf-4954-9bf3-ae9d511545db"",
+            ""actions"": [
+                {
+                    ""name"": ""Shoot"",
+                    ""type"": ""Button"",
+                    ""id"": ""d4f0de9b-a910-4ce0-be6e-8e476dc4eea0"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""ee001ed8-1948-4406-aba0-a800f4651995"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Shoot"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": []
@@ -59,6 +87,9 @@ namespace Project.Input
             // Level Menu
             m_LevelMenu = asset.FindActionMap("Level Menu", throwIfNotFound: true);
             m_LevelMenu_Move = m_LevelMenu.FindAction("Move", throwIfNotFound: true);
+            // Gameplay
+            m_Gameplay = asset.FindActionMap("Gameplay", throwIfNotFound: true);
+            m_Gameplay_Shoot = m_Gameplay.FindAction("Shoot", throwIfNotFound: true);
         }
 
         public void Dispose()
@@ -147,9 +178,46 @@ namespace Project.Input
             }
         }
         public LevelMenuActions @LevelMenu => new LevelMenuActions(this);
+
+        // Gameplay
+        private readonly InputActionMap m_Gameplay;
+        private IGameplayActions m_GameplayActionsCallbackInterface;
+        private readonly InputAction m_Gameplay_Shoot;
+        public struct GameplayActions
+        {
+            private @GameInput m_Wrapper;
+            public GameplayActions(@GameInput wrapper) { m_Wrapper = wrapper; }
+            public InputAction @Shoot => m_Wrapper.m_Gameplay_Shoot;
+            public InputActionMap Get() { return m_Wrapper.m_Gameplay; }
+            public void Enable() { Get().Enable(); }
+            public void Disable() { Get().Disable(); }
+            public bool enabled => Get().enabled;
+            public static implicit operator InputActionMap(GameplayActions set) { return set.Get(); }
+            public void SetCallbacks(IGameplayActions instance)
+            {
+                if (m_Wrapper.m_GameplayActionsCallbackInterface != null)
+                {
+                    @Shoot.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnShoot;
+                    @Shoot.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnShoot;
+                    @Shoot.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnShoot;
+                }
+                m_Wrapper.m_GameplayActionsCallbackInterface = instance;
+                if (instance != null)
+                {
+                    @Shoot.started += instance.OnShoot;
+                    @Shoot.performed += instance.OnShoot;
+                    @Shoot.canceled += instance.OnShoot;
+                }
+            }
+        }
+        public GameplayActions @Gameplay => new GameplayActions(this);
         public interface ILevelMenuActions
         {
             void OnMove(InputAction.CallbackContext context);
+        }
+        public interface IGameplayActions
+        {
+            void OnShoot(InputAction.CallbackContext context);
         }
     }
 }
