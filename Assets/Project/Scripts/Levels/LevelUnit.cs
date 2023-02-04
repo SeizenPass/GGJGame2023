@@ -1,4 +1,5 @@
-﻿using Project.Core;
+﻿using System.Collections.Generic;
+using Project.Core;
 using Project.Dialogue;
 using Project.SceneManagement;
 using UnityEngine;
@@ -12,11 +13,14 @@ namespace Project.Levels
         [SerializeField] private string codeName;
         [SerializeField] private SceneUnit targetSceneUnit;
         [SerializeField] private DialogueCollection requiredDialogue;
-
+        [SerializeField] private List<LevelUnit> openingLevels;
+        
         public string CodeName => codeName;
 
         public SceneUnit TargetSceneUnit => targetSceneUnit;
 
         public DialogueCollection RequiredDialogue => requiredDialogue;
+
+        public List<LevelUnit> OpeningLevels => openingLevels;
     }
 }

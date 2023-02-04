@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46dce7721d2249c48319284b6b90def9, type: 3}
+  m_Name: Test Level
+  m_EditorClassIdentifier: 
+  codeName: test_level
+  targetSceneUnit: {fileID: 11400000, guid: 419b7f1d922bf9b4cbddb01803fdbc87, type: 2}
+  requiredDialogue: {fileID: 11400000, guid: 7d1c5807fd255464ab9625c5e7648974, type: 2}

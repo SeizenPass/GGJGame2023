@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Project/Scenes/Menu/Level Select Menu.unity
     guid: 03856a212cee3a74faa3fa746fb5aeaf
+  - enabled: 1
+    path: Assets/Project/Scenes/Levels/Test Level.unity
+    guid: e74be918490f89744a0ffbea3f1d0e1c
   m_configObjects: {}

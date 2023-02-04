@@ -1,12 +1,23 @@
 ﻿using System;
+using Cysharp.Threading.Tasks;
+using Project.Levels;
 using Project.Utils;
 using UnityEngine;
+using Zenject;
 
 namespace Project.LevelSelector
 {
     public class LevelDisplay : MonoBehaviour
     {
+        [SerializeField] private LevelUnit targetLevel;
         [SerializeField] private ClickNotifier _clickNotifier;
+
+        [Inject] private LevelManager _levelManager;
+
+        private async void Start()
+        {
+            await UniTask.WaitUntil(() => _levelManager.Ready);
+        }
 
         private void OnEnable()
         {
@@ -20,7 +31,7 @@ namespace Project.LevelSelector
 
         private void OnClick()
         {
-            Debug.Log("Click");
+            _levelManager.RequestLevelLoad(targetLevel);
         }
     }
 }

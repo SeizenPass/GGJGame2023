@@ -46,6 +46,7 @@ namespace Project.Dialogue
             if (_currentIndex >= _currentDialogueCollection.Dialogues.Count)
             {
                 Debug.Log("Dialogue is over.");
+                _dialogueProxy.FinishDialogue();
                 onDialogFinished.Invoke();
                 return;
             }

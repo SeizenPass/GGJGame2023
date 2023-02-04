@@ -14,8 +14,14 @@ namespace Project.Dialogue
 
         public void SetDialogueCollection(DialogueCollection collection)
         {
+            if (!collection) return;
             _currentDialogueCollection = collection;
             _pendingDialogue = true;
+        }
+
+        public void FinishDialogue()
+        {
+            
         }
     }
 }
