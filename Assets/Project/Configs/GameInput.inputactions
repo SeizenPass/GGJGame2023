@@ -1,0 +1,34 @@
+{
+    "name": "GameInput",
+    "maps": [
+        {
+            "name": "Level Menu",
+            "id": "ea6a1f8f-6d14-42e0-a3b4-006ffb3b1368",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "a11f594e-6541-4fad-85a2-f0c8c19935ce",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "35a08a43-d783-4c2e-976b-b218d289e3d2",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
