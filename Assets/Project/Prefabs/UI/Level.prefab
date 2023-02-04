@@ -172,4 +172,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e22acecb3004cbcac69d7a44fe3662d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetLevel: {fileID: 0}
   _clickNotifier: {fileID: 393371509306585643}
+  disabledColor: {r: 0.38679248, g: 0.36270916, b: 0.36270916, a: 1}
+  completedColor: {r: 0.17693128, g: 0.6603774, b: 0.21360551, a: 1}
+  targetImage: {fileID: 393371509306585641}

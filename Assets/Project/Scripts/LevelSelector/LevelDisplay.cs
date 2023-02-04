@@ -15,20 +15,25 @@ namespace Project.LevelSelector
         [SerializeField] private LevelUnit targetLevel;
         [SerializeField] private ClickNotifier _clickNotifier;
         [SerializeField] private Color disabledColor, completedColor;
-        [SerializeField] private Image targetImage;
+        [SerializeField] private SpriteRenderer targetImage;
+        [SerializeField] private bool forceAvailability;
         
 
         [Inject] private LevelManager _levelManager;
         [Inject] private SaveManager _saveManager;
 
+        private bool _available;
+
         private async void Start()
         {
             await UniTask.WaitUntil(() => _levelManager.Ready);
 
-            if (!GetAvailability())
+            if (!forceAvailability && !GetAvailability())
             {
                 targetImage.color = disabledColor;
-            } else if (IsCompleted())
+            }
+            else _available = true;
+            if (IsCompleted())
             {
                 targetImage.color = completedColor;
             }
@@ -60,6 +65,7 @@ namespace Project.LevelSelector
 
         private void OnClick()
         {
+            if (!_available) return;
             _levelManager.RequestLevelLoad(targetLevel);
         }
     }

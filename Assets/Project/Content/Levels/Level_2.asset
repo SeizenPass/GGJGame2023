@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 46dce7721d2249c48319284b6b90def9, type: 3}
-  m_Name: Level_1
+  m_Name: Level_2
   m_EditorClassIdentifier: 
-  codeName: level_1
-  targetSceneUnit: {fileID: 11400000, guid: 88eec53aff72eaf4796a4019a647eb86, type: 2}
+  codeName: level_2
+  targetSceneUnit: {fileID: 11400000, guid: a0586078ab69f434ba6ba037192e7ef0, type: 2}
   requiredDialogue: {fileID: 0}
   afterDialogue: {fileID: 0}
   openingLevels:
-  - {fileID: 11400000, guid: ec046ac8eb76c154eb252a6bcc5dd925, type: 2}
+  - {fileID: 11400000, guid: 258a895079ce3c54a81174e38d7e80ba, type: 2}
