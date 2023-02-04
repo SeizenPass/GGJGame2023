@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Project.Gameplay
+namespace Project.Gameplay.Player
 {
     public class PlayerSpawner : MonoBehaviour
     {
