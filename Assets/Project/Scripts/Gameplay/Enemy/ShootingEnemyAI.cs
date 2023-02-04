@@ -33,16 +33,13 @@ namespace Project.Gameplay.Enemy
         {
             if (!_playerSpawner.CurrentPlayer) return;
             if (_lastAttackTime + cooldown > Time.time) return;
-            Debug.Log("reach");
             if (CheckPlayerAttackRange())
             {
-                Debug.Log("Player in range");
                 Attack();
                 return;
             }
             if (playerLookupZone.Check(targetLayerMask))
             {
-                Debug.Log("Player in lookup");
                 ChasePlayer();
             }
         }

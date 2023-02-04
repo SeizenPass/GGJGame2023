@@ -42,7 +42,8 @@ namespace Project.Gameplay.Enemy
 
         private void Explode()
         {
-            var targets = Physics.OverlapSphere(transform.position, targetLayerMask);
+            var targets = Physics.OverlapSphere(transform.position,
+                damageRadius, targetLayerMask);
             if (targets.Length > 0)
             {
                 foreach (var ta in targets)

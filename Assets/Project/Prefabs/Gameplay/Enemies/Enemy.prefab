@@ -75,10 +75,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a515560fff740d092c186f8284c9674, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zoneType: 0
   radius: 11.2
-  width: 0
-  length: 0
 --- !u!1 &3294866305380895838
 GameObject:
   m_ObjectHideFlags: 0
@@ -191,6 +188,8 @@ GameObject:
   - component: {fileID: 7232725637805011098}
   - component: {fileID: 2474006808335493668}
   - component: {fileID: 2727808294448172531}
+  - component: {fileID: 4249324898745975791}
+  - component: {fileID: 7158007164511560920}
   m_Layer: 8
   m_Name: Enemy
   m_TagString: Untagged
@@ -258,7 +257,7 @@ MonoBehaviour:
   projectilePrefab: {fileID: -441339219456983383, guid: 40da7ecc87fd06844866a923d1322612,
     type: 3}
   projectileSpawnPoint: {fileID: 7460871791917671126}
-  cooldown: 5
+  cooldown: 4
   attackRange: 4.38
 --- !u!136 &7835797746668249764
 CapsuleCollider:
@@ -304,7 +303,32 @@ MonoBehaviour:
         m_CallState: 2
   onDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7158007164511560920}
+        m_TargetAssemblyTypeName: Project.Gameplay.Enemy.EnemyLevelCommunicator,
+          Assembly-CSharp
+        m_MethodName: Decrement
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4249324898745975791}
+        m_TargetAssemblyTypeName: Project.Utils.ObjectDestroyer, Assembly-CSharp
+        m_MethodName: Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onUpdated:
     m_PersistentCalls:
       m_Calls: []
@@ -343,3 +367,27 @@ MonoBehaviour:
   spriteRenderer: {fileID: 3294866305380895824}
   bleedTime: 0.2
   damageColor: {r: 1, g: 0, b: 0, a: 0}
+--- !u!114 &4249324898745975791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3294866305864165847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b88113cd6a0e4f3b994e5394e0b38564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7158007164511560920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3294866305864165847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 225a97ce6b2745b2a2fa36b6817b430a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

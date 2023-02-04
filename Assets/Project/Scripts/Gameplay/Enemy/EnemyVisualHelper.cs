@@ -10,13 +10,14 @@ namespace Project.Gameplay.Enemy
         [SerializeField] private SpriteRenderer spriteRenderer;
         [SerializeField] private float bleedTime;
         [SerializeField] private Color damageColor;
-        
-        
+
+        private Tween _curTween;
 
         public void Bleed()
         {
             spriteRenderer.color = damageColor;
-            DOTween.To(() => spriteRenderer.color, x => spriteRenderer.color = x, Color.white, bleedTime);
+            if (_curTween != null) _curTween.Kill();
+            _curTween = DOTween.To(() => spriteRenderer.color, x => spriteRenderer.color = x, Color.white, bleedTime);
         }
 
         private IEnumerator WaitAndExecute(Action call, float waitTime)
@@ -24,6 +25,11 @@ namespace Project.Gameplay.Enemy
             yield return new WaitForSeconds(waitTime);
             
             call?.Invoke();
+        }
+
+        private void OnDestroy()
+        {
+            _curTween.Kill();
         }
     }
 }
