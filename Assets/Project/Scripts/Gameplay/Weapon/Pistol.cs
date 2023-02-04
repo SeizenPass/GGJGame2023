@@ -21,6 +21,7 @@ namespace Project.Gameplay.Weapon
 
         private float _lastShotTime;
         private int _currentAmmo;
+        private static readonly int ShootTrigger = Animator.StringToHash("Shoot");
 
         private void Start()
         {
@@ -36,8 +37,13 @@ namespace Project.Gameplay.Weapon
             if (Physics.Raycast(_cameraAnchor.CurrentCamera.transform.position,
                     _cameraAnchor.CurrentCamera.transform.forward, out hit, range, targetLayerMask))
             {
-                Debug.Log("Hit someone!");
+                if (hit.collider.gameObject.TryGetComponent<Health>(out var health))
+                {
+                    health.Damage(damage);
+                }
             }
+            
+            animator.SetTrigger(ShootTrigger);
         }
     }
 }

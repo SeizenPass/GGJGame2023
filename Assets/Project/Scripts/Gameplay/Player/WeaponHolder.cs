@@ -15,7 +15,7 @@ namespace Project.Gameplay.Player
 
         private void OnShoot(InputValue value)
         {
-            Debug.Log("Shoot event");
+            abstractWeapon.Shoot();
         }
     }
 }

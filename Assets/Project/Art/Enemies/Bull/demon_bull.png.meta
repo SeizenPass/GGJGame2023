@@ -1,0 +1,477 @@
+fileFormatVersion: 2
+guid: b59b57bfddc5241488d349cec33290ca
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: demon_bull_stand
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1792
+        width: 86
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd060e807e91ce4cb1284098a6a2357
+      internalID: 987033024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_bull_attack_1
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1760
+        width: 86
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941991331f24c014dbf0ef087b10724a
+      internalID: 56124546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_bull_run_1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1632
+        width: 144
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27c8c99b6efc5e4faf7956047dcb941
+      internalID: -1000317073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_bull_attack_2
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1600
+        width: 117
+        height: 128
+      alignment: 9
+      pivot: {x: 0.63355434, y: 0.5135641}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905461d0e19bcda42b8757fbcd902f63
+      internalID: -265760667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_bull_run_2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1472
+        width: 144
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425cb287bf344ab46ba1156298a20da9
+      internalID: -341060008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_bull_attack_3
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1440
+        width: 126
+        height: 135
+      alignment: 9
+      pivot: {x: 0.665258, y: 0.4655427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776918df7f98d0145839a9c28262f48b
+      internalID: 2129072541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_bull_attack_4
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 1280
+        width: 130
+        height: 136
+      alignment: 9
+      pivot: {x: 0.67039657, y: 0.45765236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78b95c3589e0ea4c99a0d5fc24d56d0
+      internalID: 489505651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_bull_attack_5
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 1116
+        width: 138
+        height: 142
+      alignment: 9
+      pivot: {x: 0.6823001, y: 0.46046814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efedea1c9538a9f43b7d01f2fac41b11
+      internalID: -1699827409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_bull_attack_6
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 960
+        width: 132
+        height: 139
+      alignment: 9
+      pivot: {x: 0.644909, y: 0.43717858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee03dbf817945f64596eb4218b67adf0
+      internalID: -409279762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_bull_attack_8
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 640
+        width: 117
+        height: 128
+      alignment: 9
+      pivot: {x: 0.36341688, y: 0.48362684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2923df35a6a16a04598ef40e127da2d2
+      internalID: -1902783952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_bull_attack_7
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 800
+        width: 86
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75440f8e4f3f1e846937fab44fda7026
+      internalID: 1207730613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_bull_attack_9
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 480
+        width: 126
+        height: 134
+      alignment: 9
+      pivot: {x: 0.3419858, y: 0.46090016}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb5254fe7378a74f91a130261f49055
+      internalID: -645731124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_bull_attack_10
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 320
+        width: 130
+        height: 136
+      alignment: 9
+      pivot: {x: 0.33065468, y: 0.455292}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7ba6576024d8f419f43efe502c30c7
+      internalID: 1360196595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_bull_attack_11
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 160
+        width: 137
+        height: 138
+      alignment: 9
+      pivot: {x: 0.31329033, y: 0.4513822}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1b04319789402469083226ac83d414
+      internalID: 1225488826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_bull_attack_12
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 0
+        width: 132
+        height: 139
+      alignment: 9
+      pivot: {x: 0.35818434, y: 0.43752238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c1bf4b6cc20f54089d1b23976dd3f9
+      internalID: 339907062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7d85f7ab19e83c444ad6636a4b388869
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      demon_bull_35: -2118218696
+      demon_bull_run_2: -341060008
+      demon_bull_9: 670441479
+      demon_bull_7: -1895693113
+      demon_bull_24: 101186393
+      demon_bull_37: 259435255
+      demon_bull_32: 1780409492
+      demon_bull_15: 1770079605
+      demon_bull_11: -877787763
+      demon_bull_17: -356948167
+      demon_bull_attack_12: 339907062
+      demon_bull_25: -1870547191
+      demon_bull_8: -1980466742
+      demon_bull_attack_7: 1207730613
+      demon_bull_attack_3: 2129072541
+      demon_bull_attack_6: -409279762
+      demon_bull_attack_11: 1225488826
+      demon_bull_attack_9: -645731124
+      demon_bull_attack_10: 1360196595
+      demon_bull_27: 2020481572
+      demon_bull_26: -1059569129
+      demon_bull_10: -1668062814
+      demon_bull_18: -1492252492
+      demon_bull_31: -148488634
+      demon_bull_run_1: -1000317073
+      demon_bull_5: -1331637685
+      demon_bull_14: -926169896
+      demon_bull_29: -985342043
+      demon_bull_attack_2: -265760667
+      demon_bull_16: 773988907
+      demon_bull_30: -514605983
+      demon_bull_attack_5: -1699827409
+      demon_bull_attack_8: -1902783952
+      demon_bull_34: 1624738204
+      demon_bull_attack_4: 489505651
+      demon_bull_13: -1522475342
+      demon_bull_33: 327612175
+      demon_bull_stand: 987033024
+      demon_bull_attack_1: 56124546
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
