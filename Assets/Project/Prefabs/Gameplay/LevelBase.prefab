@@ -1048,7 +1048,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onWin:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 68922747687020872}
+        m_TargetAssemblyTypeName: Project.Levels.LevelWinHandler, Assembly-CSharp
+        m_MethodName: WinHandle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onLose:
     m_PersistentCalls:
       m_Calls:
@@ -1355,6 +1367,52 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &6421090449965393286
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5552014373796878902}
+  - component: {fileID: 68922747687020872}
+  m_Layer: 0
+  m_Name: LevelWinHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5552014373796878902
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6421090449965393286}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1933481530779342358}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &68922747687020872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6421090449965393286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8121bccc3d7c4d73aa025b3c854f554a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueScene: {fileID: 11400000, guid: f4b1a15292df7a8488fff4d0010885c8, type: 2}
+  levelSelectorScene: {fileID: 11400000, guid: b61a0f764b8f4a445b95cfaf2ca480ce, type: 2}
 --- !u!1 &6425589882835461445
 GameObject:
   m_ObjectHideFlags: 0
@@ -1393,6 +1451,7 @@ Transform:
   - {fileID: 7678905793388360661}
   - {fileID: 2909393182498415228}
   - {fileID: 6113326702750586324}
+  - {fileID: 5552014373796878902}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2332,3 +2391,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseScreen: {fileID: 5415140140933426262}
+  onPauseChanged:
+    m_PersistentCalls:
+      m_Calls: []

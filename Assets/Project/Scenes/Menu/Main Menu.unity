@@ -1146,6 +1146,54 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1611689532
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1611689533}
+  - component: {fileID: 1611689534}
+  m_Layer: 0
+  m_Name: GameLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1611689533
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611689532}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1611689534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611689532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 987ae5a0013843a09a64f2b3f5175dd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelSelectorScene: {fileID: 11400000, guid: b61a0f764b8f4a445b95cfaf2ca480ce, type: 2}
+  dialogueScene: {fileID: 11400000, guid: f4b1a15292df7a8488fff4d0010885c8, type: 2}
+  introductionDialogue: {fileID: 11400000, guid: c13b3f40b6757ef49891bf6927165ec1,
+    type: 2}
 --- !u!1001 &1729926611
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1166,13 +1214,13 @@ PrefabInstance:
     - target: {fileID: 3399062663731026002, guid: d9a1a521b18fd3148bb2abc2a2c8b08f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3399062663731026002, guid: d9a1a521b18fd3148bb2abc2a2c8b08f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1827756955}
+      objectReference: {fileID: 1611689534}
     - target: {fileID: 3399062663731026002, guid: d9a1a521b18fd3148bb2abc2a2c8b08f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -1181,23 +1229,22 @@ PrefabInstance:
     - target: {fileID: 3399062663731026002, guid: d9a1a521b18fd3148bb2abc2a2c8b08f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: RequestSceneLoad
+      value: Play
       objectReference: {fileID: 0}
     - target: {fileID: 3399062663731026002, guid: d9a1a521b18fd3148bb2abc2a2c8b08f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Project.SceneManagement.SceneLoaderCommunicator, Assembly-CSharp
+      value: Project.Core.GameLoader, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3399062663731026002, guid: d9a1a521b18fd3148bb2abc2a2c8b08f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 11400000, guid: b61a0f764b8f4a445b95cfaf2ca480ce,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 3399062663731026002, guid: d9a1a521b18fd3148bb2abc2a2c8b08f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Project.SceneManagement.SceneUnit, Assembly-CSharp
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8352196147353261666, guid: d9a1a521b18fd3148bb2abc2a2c8b08f,
         type: 3}

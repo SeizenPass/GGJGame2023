@@ -1,7 +1,9 @@
-﻿using Cysharp.Threading.Tasks;
+﻿using System.Collections.Generic;
+using Cysharp.Threading.Tasks;
 using Project.Dialogue;
 using Project.Save;
 using Project.SceneManagement;
+using Project.Utils;
 using UnityEngine;
 using Zenject;
 
@@ -57,5 +59,33 @@ namespace Project.Levels
             }
             _sceneLoader.RequestLoadScene(_currentLevel.TargetSceneUnit.SceneName);
         }
+
+        public void FinishLevel()
+        {
+            var save = _saveManager.Save;
+            if (save.CompletedLevels == null)
+            {
+                save.CompletedLevels = new List<string>();
+            }
+            if (!ListUtils.Contains(save.CompletedLevels, _currentLevel.CodeName))
+            {
+                save.CompletedLevels.Add(_currentLevel.CodeName);
+            }
+
+            if (save.OpenLevels == null) save.OpenLevels = new List<string>();
+            foreach (var op in _currentLevel.OpeningLevels)
+            {
+                if (!ListUtils.Contains(save.OpenLevels, op.CodeName))
+                {
+                    save.OpenLevels.Add(op.CodeName);
+                }
+            }
+            
+            _saveManager.UpdateSaveData(save, true);
+            
+            _currentLevel = null;
+        }
+
+        public LevelUnit CurrentLevel => _currentLevel;
     }
 }

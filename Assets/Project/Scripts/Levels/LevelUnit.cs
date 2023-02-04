@@ -12,7 +12,7 @@ namespace Project.Levels
     {
         [SerializeField] private string codeName;
         [SerializeField] private SceneUnit targetSceneUnit;
-        [SerializeField] private DialogueCollection requiredDialogue;
+        [SerializeField] private DialogueCollection requiredDialogue, afterDialogue;
         [SerializeField] private List<LevelUnit> openingLevels;
         
         public string CodeName => codeName;
@@ -22,5 +22,7 @@ namespace Project.Levels
         public DialogueCollection RequiredDialogue => requiredDialogue;
 
         public List<LevelUnit> OpeningLevels => openingLevels;
+
+        public DialogueCollection AfterDialogue => afterDialogue;
     }
 }
