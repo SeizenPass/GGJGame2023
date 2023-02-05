@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b59b57bfddc5241488d349cec33290ca
+guid: 6ec840e717f2b9b46a3922f6316f55ee
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,316 +105,253 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: demon_bull_stand
+      name: eye_walk_0
       rect:
         serializedVersion: 2
-        x: 32
-        y: 1792
-        width: 86
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4cd060e807e91ce4cb1284098a6a2357
-      internalID: 987033024
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: demon_bull_attack_1
-      rect:
-        serializedVersion: 2
-        x: 752
-        y: 1760
-        width: 86
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 941991331f24c014dbf0ef087b10724a
-      internalID: 56124546
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: demon_bull_run_1
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 1632
-        width: 144
-        height: 123
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f27c8c99b6efc5e4faf7956047dcb941
-      internalID: -1000317073
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: demon_bull_attack_2
-      rect:
-        serializedVersion: 2
-        x: 721
-        y: 1600
-        width: 117
-        height: 128
-      alignment: 9
-      pivot: {x: 0.63355434, y: 0.5135641}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 905461d0e19bcda42b8757fbcd902f63
-      internalID: -265760667
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: demon_bull_run_2
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 1472
-        width: 144
-        height: 123
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 425cb287bf344ab46ba1156298a20da9
-      internalID: -341060008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: demon_bull_attack_3
-      rect:
-        serializedVersion: 2
-        x: 711
-        y: 1440
-        width: 126
-        height: 135
-      alignment: 9
-      pivot: {x: 0.665258, y: 0.4655427}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 776918df7f98d0145839a9c28262f48b
-      internalID: 2129072541
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: demon_bull_attack_4
-      rect:
-        serializedVersion: 2
-        x: 708
-        y: 1280
-        width: 130
-        height: 136
-      alignment: 9
-      pivot: {x: 0.67039657, y: 0.45765236}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e78b95c3589e0ea4c99a0d5fc24d56d0
-      internalID: 489505651
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: demon_bull_attack_5
-      rect:
-        serializedVersion: 2
-        x: 701
-        y: 1116
-        width: 138
-        height: 142
-      alignment: 9
-      pivot: {x: 0.6823001, y: 0.46046814}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: efedea1c9538a9f43b7d01f2fac41b11
-      internalID: -1699827409
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: demon_bull_attack_6
-      rect:
-        serializedVersion: 2
-        x: 710
-        y: 960
-        width: 132
-        height: 139
-      alignment: 9
-      pivot: {x: 0.644909, y: 0.43717858}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee03dbf817945f64596eb4218b67adf0
-      internalID: -409279762
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: demon_bull_attack_8
-      rect:
-        serializedVersion: 2
-        x: 748
-        y: 640
-        width: 117
-        height: 128
-      alignment: 9
-      pivot: {x: 0.36341688, y: 0.48362684}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2923df35a6a16a04598ef40e127da2d2
-      internalID: -1902783952
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: demon_bull_attack_7
-      rect:
-        serializedVersion: 2
-        x: 752
-        y: 800
-        width: 86
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 75440f8e4f3f1e846937fab44fda7026
-      internalID: 1207730613
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: demon_bull_attack_9
-      rect:
-        serializedVersion: 2
-        x: 748
+        x: 27
         y: 480
-        width: 126
-        height: 134
+        width: 63
+        height: 60
       alignment: 9
-      pivot: {x: 0.3419858, y: 0.46090016}
+      pivot: {x: 0.5148829, y: 0.5182317}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: beb5254fe7378a74f91a130261f49055
-      internalID: -645731124
+      spriteID: 83d4982c9cf5c8440996031075f4d6fa
+      internalID: 423689150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: demon_bull_attack_10
+      name: eye_attack_0
       rect:
         serializedVersion: 2
-        x: 748
-        y: 320
-        width: 130
-        height: 136
-      alignment: 9
-      pivot: {x: 0.33065468, y: 0.455292}
+        x: 155
+        y: 480
+        width: 63
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d7ba6576024d8f419f43efe502c30c7
-      internalID: 1360196595
+      spriteID: c873e7dbb0c0d334fb439136d2cba024
+      internalID: 357600809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: demon_bull_attack_11
+      name: electro_ball_0
       rect:
         serializedVersion: 2
-        x: 748
-        y: 160
-        width: 137
-        height: 138
-      alignment: 9
-      pivot: {x: 0.31329033, y: 0.4513822}
+        x: 282
+        y: 487
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a1b04319789402469083226ac83d414
-      internalID: 1225488826
+      spriteID: ba0676f783ce4e34aa4809afd9275d9c
+      internalID: -1840868592
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: demon_bull_attack_12
+      name: eye_walk_1
       rect:
         serializedVersion: 2
-        x: 744
-        y: 0
-        width: 132
-        height: 139
+        x: 25
+        y: 332
+        width: 74
+        height: 64
       alignment: 9
-      pivot: {x: 0.35818434, y: 0.43752238}
+      pivot: {x: 0.46409974, y: 0.54395103}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53c1bf4b6cc20f54089d1b23976dd3f9
-      internalID: 339907062
+      spriteID: 4973cd7d7b38b424b939c1ce6ea24d5e
+      internalID: -1757388550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye_attack_1
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 322
+        width: 87
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5112138, y: 0.5306066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbec89d80e58df4e8f092f7c549bed9
+      internalID: -1315810516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electro_ball_1
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 343
+        width: 48
+        height: 37
+      alignment: 9
+      pivot: {x: 0.4955845, y: 0.5257725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be1f73078b01024a9c6adc70020fbd8
+      internalID: -1748872867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye_walk_2
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 191
+        width: 86
+        height: 68
+      alignment: 9
+      pivot: {x: 0.47274327, y: 0.47242266}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb328bfa2e7a410428f998d35b53b7cc
+      internalID: -2114455514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye_attack_2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 175
+        width: 106
+        height: 97
+      alignment: 9
+      pivot: {x: 0.50455934, y: 0.50885767}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fa75db406e9764cb994d3aecbf9228
+      internalID: 1464481700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electro_ball_2
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 195
+        width: 50
+        height: 41
+      alignment: 9
+      pivot: {x: 0.56992066, y: 0.55053}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b21812b1b74eaf46a9053418c972d54
+      internalID: 1693717068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye_walk_3
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 36
+        width: 86
+        height: 79
+      alignment: 9
+      pivot: {x: 0.50545126, y: 0.54549676}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8483789f1a1d1084a90a02a2fc174953
+      internalID: 82889452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye_attack_3
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 12
+        width: 124
+        height: 127
+      alignment: 9
+      pivot: {x: 0.4547049, y: 0.53775305}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e9c2e24ed446f4db46eee6fa16cb8e
+      internalID: -514332599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electro_ball_3
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 52
+        width: 45
+        height: 38
+      alignment: 9
+      pivot: {x: 0.50217557, y: 0.5656931}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004a0864c1ad1834fadc43569db2fe6a
+      internalID: 1680196030
       vertices: []
       indices: 
       edges: []
@@ -422,7 +359,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 7d85f7ab19e83c444ad6636a4b388869
+    spriteID: 2e78e234f7f492040aed66cc621d255f
     internalID: 0
     vertices: []
     indices: 
@@ -430,45 +367,53 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      demon_bull_35: -2118218696
-      demon_bull_run_2: -341060008
-      demon_bull_9: 670441479
-      demon_bull_7: -1895693113
-      demon_bull_24: 101186393
-      demon_bull_37: 259435255
-      demon_bull_32: 1780409492
-      demon_bull_15: 1770079605
-      demon_bull_11: -877787763
-      demon_bull_17: -356948167
-      demon_bull_attack_12: 339907062
-      demon_bull_25: -1870547191
-      demon_bull_8: -1980466742
-      demon_bull_33: 327612175
-      demon_bull_attack_3: 2129072541
-      demon_bull_attack_6: -409279762
-      demon_bull_attack_11: 1225488826
-      demon_bull_attack_9: -645731124
-      demon_bull_attack_10: 1360196595
-      demon_bull_27: 2020481572
-      demon_bull_26: -1059569129
-      demon_bull_10: -1668062814
-      demon_bull_18: -1492252492
-      demon_bull_31: -148488634
-      demon_bull_run_1: -1000317073
-      demon_bull_5: -1331637685
-      demon_bull_14: -926169896
-      demon_bull_29: -985342043
-      demon_bull_attack_2: -265760667
-      demon_bull_16: 773988907
-      demon_bull_30: -514605983
-      demon_bull_attack_5: -1699827409
-      demon_bull_attack_8: -1902783952
-      demon_bull_34: 1624738204
-      demon_bull_attack_4: 489505651
-      demon_bull_13: -1522475342
-      demon_bull_stand: 987033024
-      demon_bull_attack_1: 56124546
-      demon_bull_attack_7: 1207730613
+      eye_40: 496313229
+      eye_15: 1139285045
+      eye_41: -2017073845
+      eye_45: -502860192
+      eye_25: -2078675964
+      eye_37: 1365580618
+      eye_28: 559782240
+      electro_ball_1: -1748872867
+      eye_attack_2: 1464481700
+      eye_39: -553389578
+      eye_20: -13467291
+      eye_21: -612415538
+      eye_29: -512250806
+      electro_ball_2: 1693717068
+      electro_ball_0: -1840868592
+      eye_31: 1133715190
+      eye_44: -14214724
+      eye_33: 1285393559
+      eye_attack_0: 357600809
+      eye_walk_3: 82889452
+      eye_attack_3: -514332599
+      eye_18: 1899845788
+      eye_26: 1300464209
+      eye_3: -1173250292
+      eye_34: 656957792
+      eye_46: 232826726
+      eye_12: 1310281904
+      eye_30: 1982091458
+      eye_7: -150669658
+      eye_9: -639101846
+      eye_27: 1977947950
+      eye_32: 41908509
+      eye_walk_1: -1757388550
+      eye_attack_1: -1315810516
+      eye_walk_2: -2114455514
+      eye_19: 1942474304
+      eye_walk_0: 423689150
+      eye_43: -1146094094
+      eye_5: -1580472754
+      eye_16: 1050427971
+      eye_14: 121345459
+      eye_11: -2146805732
+      eye_8: -572163996
+      eye_24: -412922111
+      electro_ball_3: 1680196030
+      eye_35: -567817668
+      eye_22: -237705936
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

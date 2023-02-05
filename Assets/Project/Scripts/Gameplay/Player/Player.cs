@@ -27,6 +27,11 @@ namespace Project.Gameplay.Player
             _healthUI.SetCurrent(health.CurrentHealth);
         }
 
+        public void GetDamaged()
+        {
+            _healthUI.DamageOverlay();
+        }
+
         public void MarkDead()
         {
             _logic.MarkPlayerDead();

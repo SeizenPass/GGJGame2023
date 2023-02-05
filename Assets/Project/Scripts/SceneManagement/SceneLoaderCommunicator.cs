@@ -10,7 +10,6 @@ namespace Project.SceneManagement
 
         public void RequestSceneLoad(SceneUnit sceneUnit)
         {
-            Debug.Log(_sceneLoader);
             _sceneLoader.RequestLoadScene(sceneUnit.SceneName);
         }
     }

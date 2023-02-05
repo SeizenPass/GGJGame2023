@@ -1,4 +1,5 @@
-﻿using Project.Dialogue;
+﻿using System;
+using Project.Dialogue;
 using Project.SceneManagement;
 using UnityEngine;
 using Zenject;
@@ -17,10 +18,11 @@ namespace Project.Levels
         public void WinHandle()
         {
             var level = _levelManager.CurrentLevel;
-            _dialogueProxy.SetDialogueCollection(level.AfterDialogue);
-            
-            _levelManager.FinishLevel();
-            
+            if (level)
+            {
+                _dialogueProxy.SetDialogueCollection(level.AfterDialogue);
+                _levelManager.FinishLevel();
+            }
             if (_dialogueProxy.PendingDialogue)
             {
                 _sceneLoader.RequestLoadScene(dialogueScene.SceneName);

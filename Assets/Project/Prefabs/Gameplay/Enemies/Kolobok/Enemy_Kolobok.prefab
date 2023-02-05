@@ -191,7 +191,7 @@ GameObject:
   - component: {fileID: 4249324898745975791}
   - component: {fileID: 7158007164511560920}
   m_Layer: 8
-  m_Name: Enemy
+  m_Name: Enemy_Kolobok
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -250,6 +250,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navMeshAgent: {fileID: 5627574239066615461}
+  animator: {fileID: 2474006808335493668}
   playerLookupZone: {fileID: 271661400579660536}
   targetLayerMask:
     serializedVersion: 2
@@ -259,6 +260,7 @@ MonoBehaviour:
   projectileSpawnPoint: {fileID: 7460871791917671126}
   cooldown: 4
   attackRange: 4.38
+  hasAttackAnimation: 0
 --- !u!136 &7835797746668249764
 CapsuleCollider:
   m_ObjectHideFlags: 0

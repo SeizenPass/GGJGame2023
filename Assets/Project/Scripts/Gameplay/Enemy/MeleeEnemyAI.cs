@@ -6,7 +6,7 @@ using Zenject;
 
 namespace Project.Gameplay.Enemy
 {
-    public class ShootingEnemyAI : MonoBehaviour
+    public class MeleeEnemyAI : MonoBehaviour
     {
         [SerializeField] private NavMeshAgent navMeshAgent;
         [SerializeField] private Animator animator;
@@ -16,9 +16,9 @@ namespace Project.Gameplay.Enemy
 
         [Header("Combat")] 
         [SerializeField] 
-        private Projectile projectilePrefab;
-        [SerializeField] 
-        private Transform projectileSpawnPoint;
+        private Transform attackPoint;
+
+        [SerializeField] private float damage;
         [SerializeField] private float cooldown = 5;
         [SerializeField] private float attackRange = 5;
         [SerializeField] private bool hasAttackAnimation;
@@ -35,8 +35,7 @@ namespace Project.Gameplay.Enemy
         private void Update()
         {
             if (!_playerSpawner.CurrentPlayer) return;
-            if (_lastAttackTime + cooldown > Time.time) return;
-            if (CheckPlayerAttackRange())
+            if (_lastAttackTime + cooldown < Time.time && CheckPlayerAttackRange())
             {
                 Stop();
                 Attack();
@@ -53,39 +52,43 @@ namespace Project.Gameplay.Enemy
             navMeshAgent.SetDestination(_playerSpawner.CurrentPlayer.transform.position);
         }
 
-        private void Attack()
-        {
-            _lastAttackTime = Time.time;
-            var spawnPoint = projectileSpawnPoint.position;
-            var dir = (_playerSpawner.CurrentPlayer.transform.position - 
-                       spawnPoint).normalized;
-            var p = _diContainer.InstantiatePrefabForComponent<Projectile>(projectilePrefab,
-                spawnPoint, projectilePrefab.transform.rotation, null);
-            p.Shoot(dir);
-            if (hasAttackAnimation)
-            {
-                animator.SetTrigger(AttackTrigger);
-            }
-        }
-        
         private void Stop()
         {
             navMeshAgent.SetDestination(transform.position);
         }
 
+        private void Attack()
+        {
+            _lastAttackTime = Time.time;
+            if (hasAttackAnimation)
+            {
+                animator.SetTrigger(AttackTrigger);
+            }
+        }
+
         private bool CheckPlayerAttackRange()
         {
-            var transform1 = projectileSpawnPoint;
-            return Physics.Raycast(transform1.position,
-                transform1.forward, out _, attackRange, targetLayerMask);
+            return Physics.CheckSphere(attackPoint.position, attackRange, targetLayerMask);
+        }
+
+        public void ExecuteDamaging()
+        {
+            if (CheckPlayerAttackRange())
+            {
+                if (_playerSpawner.CurrentPlayer.TryGetComponent<Health>(out var h))
+                {
+                    h.Damage(damage);
+                }
+            }
         }
 
         private void OnDrawGizmosSelected()
         {
             Gizmos.color = Color.red;
-            var transform1 = projectileSpawnPoint;
+            if (!attackPoint) return;
+            var transform1 = attackPoint;
             var position = transform1.position;
-            Gizmos.DrawLine(position, position + transform1.forward * attackRange);
+            Gizmos.DrawWireSphere(position, attackRange);
         }
     }
 }

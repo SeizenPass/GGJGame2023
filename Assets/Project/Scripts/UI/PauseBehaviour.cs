@@ -33,6 +33,8 @@ namespace Project.UI
             }
             else
             {
+                Cursor.visible = false;
+                Cursor.lockState = CursorLockMode.Locked;
                 pauseScreen.SetActive(false);
                 Time.timeScale = 1f;
             }
@@ -50,6 +52,8 @@ namespace Project.UI
             _pause = false;
             onPauseChanged.Invoke(_pause);
             HandlePause();
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
         }
     }
 }

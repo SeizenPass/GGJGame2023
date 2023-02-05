@@ -62,6 +62,11 @@ namespace Project.Levels
 
         public void FinishLevel()
         {
+            if (_currentLevel == null)
+            {
+                Debug.LogWarning("No level to finish.");
+                return;
+            }
             var save = _saveManager.Save;
             if (save.CompletedLevels == null)
             {
