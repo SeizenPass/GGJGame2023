@@ -1,12 +1,9 @@
-﻿using System;
-using Cysharp.Threading.Tasks;
-using Microsoft.Unity.VisualStudio.Editor;
+﻿using Cysharp.Threading.Tasks;
 using Project.Levels;
 using Project.Save;
 using Project.Utils;
 using UnityEngine;
 using Zenject;
-using Image = UnityEngine.UI.Image;
 
 namespace Project.LevelSelector
 {

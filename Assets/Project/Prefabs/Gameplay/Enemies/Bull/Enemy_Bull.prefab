@@ -75,7 +75,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a515560fff740d092c186f8284c9674, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 11.2
+  radius: 23.6
 --- !u!1 &8528534723283611618
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,7 +388,6 @@ MonoBehaviour:
   targetLayerMask:
     serializedVersion: 2
     m_Bits: 128
-  projectilePrefab: {fileID: 0}
   attackPoint: {fileID: 4352888512773259626}
   damage: 1
   cooldown: 1
