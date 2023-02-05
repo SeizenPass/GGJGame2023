@@ -30,6 +30,11 @@ namespace Project.Audio
         {
             _audioPlayer.StopMusic();
         }
+
+        public void SetTrack(AudioTrack audioTrack)
+        {
+            track = audioTrack;
+        }
     }
 
 }

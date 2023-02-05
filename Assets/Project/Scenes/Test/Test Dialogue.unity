@@ -329,7 +329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a3a3771a09442aa87777a3cbe32783d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  testDialogue: {fileID: 11400000, guid: 7d1c5807fd255464ab9625c5e7648974, type: 2}
+  testDialogue: {fileID: 11400000, guid: f157f1ca316d1a54ea590aa3b530aa63, type: 2}
   dialogueScene: {fileID: 11400000, guid: f4b1a15292df7a8488fff4d0010885c8, type: 2}
   sceneLoaderCommunicator: {fileID: 59374743}
 --- !u!1 &520363135

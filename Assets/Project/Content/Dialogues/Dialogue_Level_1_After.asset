@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53615572b52c4b828e7f0db1eead5d75, type: 3}
+  m_Name: Dialogue_Level_1_After
+  m_EditorClassIdentifier: 
+  dialogues:
+  - actor: {fileID: 11400000, guid: 515b7ad8f3a0b21468318044c63f368e, type: 2}
+    avatar: {fileID: 11400000, guid: 6c36034d7e9912f4c98cb675dc714934, type: 2}
+    text: 'Damn it. '
+    avatarPosition: 1
+  - actor: {fileID: 11400000, guid: 515b7ad8f3a0b21468318044c63f368e, type: 2}
+    avatar: {fileID: 11400000, guid: 6c36034d7e9912f4c98cb675dc714934, type: 2}
+    text: "There is no end to these monsters. \r\nSo much effort but no answers yet.\r"
+    avatarPosition: 1
+  - actor: {fileID: 11400000, guid: 0a132e1d9eb31ed4cbb4efeeee8cda05, type: 2}
+    avatar: {fileID: 11400000, guid: 874a6aa825d1e584189373e268549ea7, type: 2}
+    text: Hello Gration.
+    avatarPosition: 0
+  - actor: {fileID: 11400000, guid: 515b7ad8f3a0b21468318044c63f368e, type: 2}
+    avatar: {fileID: 11400000, guid: f0b5f2a5d9500df40968d32ec018a9a6, type: 2}
+    text: Who is this?
+    avatarPosition: 1
+  - actor: {fileID: 11400000, guid: 515b7ad8f3a0b21468318044c63f368e, type: 2}
+    avatar: {fileID: 11400000, guid: f0b5f2a5d9500df40968d32ec018a9a6, type: 2}
+    text: "Show yourself if you want my death. \r\nIt won't be enough for you to
+      just talk in my head.\r"
+    avatarPosition: 1
+  - actor: {fileID: 11400000, guid: c0b2eade8fcf4d04181523bd30172b8f, type: 2}
+    avatar: {fileID: 11400000, guid: 874a6aa825d1e584189373e268549ea7, type: 2}
+    text: "My name is Cintri. \r\nI cannot appear before you because I am imprisoned
+      in a dungeon. \r\nWe have one goal.\r\n"
+    avatarPosition: 0
+  - actor: {fileID: 11400000, guid: c0b2eade8fcf4d04181523bd30172b8f, type: 2}
+    avatar: {fileID: 11400000, guid: 874a6aa825d1e584189373e268549ea7, type: 2}
+    text: If you free me, you'll get what you're looking for.
+    avatarPosition: 0
+  - actor: {fileID: 11400000, guid: ec214f0ded9c20b46a816f81ec18e925, type: 2}
+    avatar: {fileID: 11400000, guid: 0329aebb43bd1c541843de1ebccf1fe7, type: 2}
+    text: (Gration finds Cintri)
+    avatarPosition: 1
+  - actor: {fileID: 11400000, guid: 515b7ad8f3a0b21468318044c63f368e, type: 2}
+    avatar: {fileID: 11400000, guid: f0b5f2a5d9500df40968d32ec018a9a6, type: 2}
+    text: Well, I'm all here. Stick to 20 words or less.
+    avatarPosition: 1
+  - actor: {fileID: 11400000, guid: c0b2eade8fcf4d04181523bd30172b8f, type: 2}
+    avatar: {fileID: 11400000, guid: 60261df14750222448392a1eb17e8028, type: 2}
+    text: "I am not a mere mortal. \r\nI am one of the fruits of the great tree.
+      \r"
+    avatarPosition: 0
+  - actor: {fileID: 11400000, guid: c0b2eade8fcf4d04181523bd30172b8f, type: 2}
+    avatar: {fileID: 11400000, guid: 60261df14750222448392a1eb17e8028, type: 2}
+    text: "Before gaining infinite power, Tretogon was an ordinary mortal like you.
+      \r\nThe source of his strength is the fruit of the great tree, which he consumed.
+      \r\n"
+    avatarPosition: 0
+  - actor: {fileID: 11400000, guid: c0b2eade8fcf4d04181523bd30172b8f, type: 2}
+    avatar: {fileID: 11400000, guid: 60261df14750222448392a1eb17e8028, type: 2}
+    text: "Knowing that storing sources of power in one vessel makes him vulnerable,
+      he divided them into 4 parts.\t"
+    avatarPosition: 0
+  - actor: {fileID: 11400000, guid: c0b2eade8fcf4d04181523bd30172b8f, type: 2}
+    avatar: {fileID: 11400000, guid: 60261df14750222448392a1eb17e8028, type: 2}
+    text: '4 seed of the four holy cities: Tretogon, Lyria, Ys and Cintri.'
+    avatarPosition: 0
+  - actor: {fileID: 11400000, guid: 515b7ad8f3a0b21468318044c63f368e, type: 2}
+    avatar: {fileID: 11400000, guid: f0b5f2a5d9500df40968d32ec018a9a6, type: 2}
+    text: I am interested in my origin and why I am drawn to the tree.
+    avatarPosition: 1
+  - actor: {fileID: 11400000, guid: c0b2eade8fcf4d04181523bd30172b8f, type: 2}
+    avatar: {fileID: 11400000, guid: 2c5033f19f8bd8a499e84ad70e83dc3e, type: 2}
+    text: 'You may be mortal, but not simple. '
+    avatarPosition: 0
+  - actor: {fileID: 11400000, guid: c0b2eade8fcf4d04181523bd30172b8f, type: 2}
+    avatar: {fileID: 11400000, guid: 60261df14750222448392a1eb17e8028, type: 2}
+    text: We are all children of nature, and the one who owns the source of contemplation
+      of life knows the answer to this question.
+    avatarPosition: 0
+  - actor: {fileID: 11400000, guid: c0b2eade8fcf4d04181523bd30172b8f, type: 2}
+    avatar: {fileID: 11400000, guid: 60261df14750222448392a1eb17e8028, type: 2}
+    text: We are all children of nature, and the one who owns the source of contemplation
+      of life knows the answer to this question.
+    avatarPosition: 0
+  - actor: {fileID: 11400000, guid: 515b7ad8f3a0b21468318044c63f368e, type: 2}
+    avatar: {fileID: 11400000, guid: f0b5f2a5d9500df40968d32ec018a9a6, type: 2}
+    text: So you're saying that I should go to Tretogon?
+    avatarPosition: 1
+  - actor: {fileID: 11400000, guid: c0b2eade8fcf4d04181523bd30172b8f, type: 2}
+    avatar: {fileID: 11400000, guid: 2c5033f19f8bd8a499e84ad70e83dc3e, type: 2}
+    text: 'Indeed. '
+    avatarPosition: 0
+  - actor: {fileID: 11400000, guid: c0b2eade8fcf4d04181523bd30172b8f, type: 2}
+    avatar: {fileID: 11400000, guid: 60261df14750222448392a1eb17e8028, type: 2}
+    text: 'Your path is full of difficult trials. '
+    avatarPosition: 0
+  - actor: {fileID: 11400000, guid: c0b2eade8fcf4d04181523bd30172b8f, type: 2}
+    avatar: {fileID: 11400000, guid: 60261df14750222448392a1eb17e8028, type: 2}
+    text: Take me with you and I will be your ally.
+    avatarPosition: 0

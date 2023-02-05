@@ -15,9 +15,53 @@ MonoBehaviour:
   dialogues:
   - actor: {fileID: 11400000, guid: ec214f0ded9c20b46a816f81ec18e925, type: 2}
     avatar: {fileID: 11400000, guid: 0329aebb43bd1c541843de1ebccf1fe7, type: 2}
-    text: Test
+    text: The alignment of the world changed when Tretogon appeared, who wanted to
+      get absolute power over all living things. He took to his hands the tree of
+      the world, which nourished our earth with vital energy.
     avatarPosition: 1
   - actor: {fileID: 11400000, guid: ec214f0ded9c20b46a816f81ec18e925, type: 2}
     avatar: {fileID: 11400000, guid: 0329aebb43bd1c541843de1ebccf1fe7, type: 2}
-    text: Test2
+    text: Using the roots of the tree, Tretogon began to suck out life energy from
+      the earth, thereby making himself immortal and omnipotent. Together with his
+      endless army and the power of the tree, Tretogon began to expand the territories
+      of his rule, devastating more and more lands and killing all those who opposed
+      him.
+    avatarPosition: 1
+  - actor: {fileID: 11400000, guid: ec214f0ded9c20b46a816f81ec18e925, type: 2}
+    avatar: {fileID: 11400000, guid: 0329aebb43bd1c541843de1ebccf1fe7, type: 2}
+    text: No state could compete with such power, and Tretogon suddenly became the
+      ruler not only of the great tree, but of the whole world.
+    avatarPosition: 1
+  - actor: {fileID: 11400000, guid: ec214f0ded9c20b46a816f81ec18e925, type: 2}
+    avatar: {fileID: 11400000, guid: 0329aebb43bd1c541843de1ebccf1fe7, type: 2}
+    text: In such world full of ruthlessness and madness our main character Gration
+      was born. All his life he did nothing but fight for his right to exist in this
+      unfair world.
+    avatarPosition: 1
+  - actor: {fileID: 11400000, guid: ec214f0ded9c20b46a816f81ec18e925, type: 2}
+    avatar: {fileID: 11400000, guid: 0329aebb43bd1c541843de1ebccf1fe7, type: 2}
+    text: Having no parents, no home, Gration grew up in adverse conditions from
+      an early age, where you could not even be sure that you could wake up alive
+      the next day.
+    avatarPosition: 1
+  - actor: {fileID: 11400000, guid: ec214f0ded9c20b46a816f81ec18e925, type: 2}
+    avatar: {fileID: 11400000, guid: 0329aebb43bd1c541843de1ebccf1fe7, type: 2}
+    text: However, in such a world, death does not seem to be such a bad outcome,
+      because the only reason for the existence for all people now is the service
+      for Tretogon's empires.
+    avatarPosition: 1
+  - actor: {fileID: 11400000, guid: ec214f0ded9c20b46a816f81ec18e925, type: 2}
+    avatar: {fileID: 11400000, guid: 0329aebb43bd1c541843de1ebccf1fe7, type: 2}
+    text: 'For many years he served in Tretogon''s army, exterminating all recalcitrant
+      people who tried to oppose the regime of empires. After countless battles,
+      Gration has lost the meaning of life, becoming an insensitive killing machine. '
+    avatarPosition: 1
+  - actor: {fileID: 11400000, guid: ec214f0ded9c20b46a816f81ec18e925, type: 2}
+    avatar: {fileID: 11400000, guid: 0329aebb43bd1c541843de1ebccf1fe7, type: 2}
+    text: The only reason why Gration is still alive is because of the tree that
+      started it all, or rather the inexplicable feeling inside Gration.
+    avatarPosition: 1
+  - actor: {fileID: 11400000, guid: ec214f0ded9c20b46a816f81ec18e925, type: 2}
+    avatar: {fileID: 11400000, guid: 0329aebb43bd1c541843de1ebccf1fe7, type: 2}
+    text: Here begins our journey along the roots of the great tree.
     avatarPosition: 1

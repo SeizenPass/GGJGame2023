@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: Test Dialogue
   m_EditorClassIdentifier: 
   dialogues:
-  - actor: {fileID: 11400000, guid: 8766e040f20749747b28de0effd9ee36, type: 2}
-    avatar: {fileID: 11400000, guid: 571b0c262a6a00c4a9acc3faacb1a546, type: 2}
+  - actor: {fileID: 11400000, guid: 515b7ad8f3a0b21468318044c63f368e, type: 2}
+    avatar: {fileID: 11400000, guid: 4fdd1839fae8092489441a0f3497bbf6, type: 2}
     text: Test text!Test text!Test text!Test text!Test text!Test text!Test text!Test
       text!Test text!Test text!Test text!Test text!Test text!Test text!Test text!Test
       text!Test text!
     avatarPosition: 1
-  - actor: {fileID: 11400000, guid: 8766e040f20749747b28de0effd9ee36, type: 2}
-    avatar: {fileID: 11400000, guid: 571b0c262a6a00c4a9acc3faacb1a546, type: 2}
+  - actor: {fileID: 11400000, guid: 515b7ad8f3a0b21468318044c63f368e, type: 2}
+    avatar: {fileID: 11400000, guid: 4fdd1839fae8092489441a0f3497bbf6, type: 2}
     text: Bruh what?
     avatarPosition: 0

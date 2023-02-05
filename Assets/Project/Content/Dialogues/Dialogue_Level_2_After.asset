@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53615572b52c4b828e7f0db1eead5d75, type: 3}
+  m_Name: Dialogue_Level_2_After
+  m_EditorClassIdentifier: 
+  dialogues:
+  - actor: {fileID: 11400000, guid: c0b2eade8fcf4d04181523bd30172b8f, type: 2}
+    avatar: {fileID: 11400000, guid: 60261df14750222448392a1eb17e8028, type: 2}
+    text: Ys should be here.
+    avatarPosition: 0
+  - actor: {fileID: 11400000, guid: cc5d35aeead7d1443a7199543d446354, type: 2}
+    avatar: {fileID: 11400000, guid: 79886477ad876934f929a92baa5e4ab1, type: 2}
+    text: I was attracted by the noise of the battle.
+    avatarPosition: 0
+  - actor: {fileID: 11400000, guid: cc5d35aeead7d1443a7199543d446354, type: 2}
+    avatar: {fileID: 11400000, guid: d0338cfa27c60ec4e9a0b98bf905aa34, type: 2}
+    text: Did you kill all those monsters?
+    avatarPosition: 0
+  - actor: {fileID: 11400000, guid: 515b7ad8f3a0b21468318044c63f368e, type: 2}
+    avatar: {fileID: 11400000, guid: f0b5f2a5d9500df40968d32ec018a9a6, type: 2}
+    text: Yes.
+    avatarPosition: 1
+  - actor: {fileID: 11400000, guid: cc5d35aeead7d1443a7199543d446354, type: 2}
+    avatar: {fileID: 11400000, guid: 79886477ad876934f929a92baa5e4ab1, type: 2}
+    text: My name is Ys.
+    avatarPosition: 0
+  - actor: {fileID: 11400000, guid: 515b7ad8f3a0b21468318044c63f368e, type: 2}
+    avatar: {fileID: 11400000, guid: f0b5f2a5d9500df40968d32ec018a9a6, type: 2}
+    text: "I know. \r\nI'm going to Tretogon. \r\nDon't know how to find him?\r"
+    avatarPosition: 1
+  - actor: {fileID: 11400000, guid: cc5d35aeead7d1443a7199543d446354, type: 2}
+    avatar: {fileID: 11400000, guid: 79886477ad876934f929a92baa5e4ab1, type: 2}
+    text: "The path to the top of the tree lies through the old Pantheon. \r\nFrom
+      there you must get to the core of the tree. \r"
+    avatarPosition: 0
+  - actor: {fileID: 11400000, guid: cc5d35aeead7d1443a7199543d446354, type: 2}
+    avatar: {fileID: 11400000, guid: 79886477ad876934f929a92baa5e4ab1, type: 2}
+    text: May I go with you?
+    avatarPosition: 0
+  - actor: {fileID: 11400000, guid: c0b2eade8fcf4d04181523bd30172b8f, type: 2}
+    avatar: {fileID: 11400000, guid: 60261df14750222448392a1eb17e8028, type: 2}
+    text: "Yes.\r\nWe will need your help.\r"
+    avatarPosition: 0
+  - actor: {fileID: 11400000, guid: 515b7ad8f3a0b21468318044c63f368e, type: 2}
+    avatar: {fileID: 11400000, guid: ab1634c4bc0e6974ca127df51a5ee70f, type: 2}
+    text: "\u2026"
+    avatarPosition: 1

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53615572b52c4b828e7f0db1eead5d75, type: 3}
+  m_Name: Dialogue_Level_1_Before
+  m_EditorClassIdentifier: 
+  dialogues:
+  - actor: {fileID: 11400000, guid: 515b7ad8f3a0b21468318044c63f368e, type: 2}
+    avatar: {fileID: 11400000, guid: 50861a4aca43a4c4f9fddcc00dd45150, type: 2}
+    text: Here is the entrance to the tree. It always pissed me off that no one guarded
+      him. Anyone can enter, but not everyone can exit.
+    avatarPosition: 1
+  - actor: {fileID: 11400000, guid: 515b7ad8f3a0b21468318044c63f368e, type: 2}
+    avatar: {fileID: 11400000, guid: 6c36034d7e9912f4c98cb675dc714934, type: 2}
+    text: That says a lot about the Emperor's vanity. This bastard knows that only
+      a madman or an idiot will stick himself in this infernal hell for no reason.
+    avatarPosition: 1
+  - actor: {fileID: 11400000, guid: 515b7ad8f3a0b21468318044c63f368e, type: 2}
+    avatar: {fileID: 11400000, guid: ab1634c4bc0e6974ca127df51a5ee70f, type: 2}
+    text: He imagines himself to be a god, but he has such low human qualities.
+    avatarPosition: 1
+  - actor: {fileID: 11400000, guid: 515b7ad8f3a0b21468318044c63f368e, type: 2}
+    avatar: {fileID: 11400000, guid: 50861a4aca43a4c4f9fddcc00dd45150, type: 2}
+    text: On the other hand, everything in this world has long been rotten. Except
+      for this tree, of course.
+    avatarPosition: 1
+  - actor: {fileID: 11400000, guid: 515b7ad8f3a0b21468318044c63f368e, type: 2}
+    avatar: {fileID: 11400000, guid: f0b5f2a5d9500df40968d32ec018a9a6, type: 2}
+    text: 'Okay, enough talking. '
+    avatarPosition: 1

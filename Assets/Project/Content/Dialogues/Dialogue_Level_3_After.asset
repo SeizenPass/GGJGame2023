@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53615572b52c4b828e7f0db1eead5d75, type: 3}
+  m_Name: Dialogue_Level_3_After
+  m_EditorClassIdentifier: 
+  dialogues:
+  - actor: {fileID: 11400000, guid: 515b7ad8f3a0b21468318044c63f368e, type: 2}
+    avatar: {fileID: 11400000, guid: f0b5f2a5d9500df40968d32ec018a9a6, type: 2}
+    text: So, you are Lyria?
+    avatarPosition: 1
+  - actor: {fileID: 11400000, guid: 7867e8bd3e16c344a9ce7dfacdab8469, type: 2}
+    avatar: {fileID: 11400000, guid: eb45415fc9e144549a77c403a11279ca, type: 2}
+    text: "Yes. \r\nBut I don\u2019t know who you are and why are you here.\r\n"
+    avatarPosition: 0
+  - actor: {fileID: 11400000, guid: 515b7ad8f3a0b21468318044c63f368e, type: 2}
+    avatar: {fileID: 11400000, guid: f0b5f2a5d9500df40968d32ec018a9a6, type: 2}
+    text: "I'm going to Tretogon. \r\nI assume you know how to get to him."
+    avatarPosition: 1
+  - actor: {fileID: 11400000, guid: 7867e8bd3e16c344a9ce7dfacdab8469, type: 2}
+    avatar: {fileID: 11400000, guid: eb45415fc9e144549a77c403a11279ca, type: 2}
+    text: "There is very little left for you to find Tretogon. \r\nThe entrance to
+      the core of the great tree is located in the east. \r\n"
+    avatarPosition: 0
+  - actor: {fileID: 11400000, guid: 7867e8bd3e16c344a9ce7dfacdab8469, type: 2}
+    avatar: {fileID: 11400000, guid: eb45415fc9e144549a77c403a11279ca, type: 2}
+    text: "From there you can climb to the top of the tree where Tretogon\u2019s
+      throne is located."
+    avatarPosition: 0
+  - actor: {fileID: 11400000, guid: 515b7ad8f3a0b21468318044c63f368e, type: 2}
+    avatar: {fileID: 11400000, guid: f0b5f2a5d9500df40968d32ec018a9a6, type: 2}
+    text: "Well, Let\u2019s go. It won't be safe to leave you here."
+    avatarPosition: 1
+  - actor: {fileID: 11400000, guid: 515b7ad8f3a0b21468318044c63f368e, type: 2}
+    avatar: {fileID: 11400000, guid: f0b5f2a5d9500df40968d32ec018a9a6, type: 2}
+    text: Tretogon is most likely already aware of my presence. Come with us.
+    avatarPosition: 1
+  - actor: {fileID: 11400000, guid: 7867e8bd3e16c344a9ce7dfacdab8469, type: 2}
+    avatar: {fileID: 11400000, guid: eb45415fc9e144549a77c403a11279ca, type: 2}
+    text: Okay, I hope I can help you.
+    avatarPosition: 0

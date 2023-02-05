@@ -183,7 +183,7 @@ MonoBehaviour:
     type: 3}
   projectileSpawnPoint: {fileID: 633259937723280489}
   cooldown: 4
-  attackRange: 4.38
+  attackRange: 8.52
   hasAttackAnimation: 1
 --- !u!136 &287602948076268571
 CapsuleCollider:
@@ -361,7 +361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a515560fff740d092c186f8284c9674, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 11.2
+  radius: 18.1
 --- !u!1 &7875337056826514457
 GameObject:
   m_ObjectHideFlags: 0

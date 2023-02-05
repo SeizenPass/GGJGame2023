@@ -21,7 +21,8 @@ namespace Project.Dialogue
 
         public void FinishDialogue()
         {
-            
+            _pendingDialogue = false;
+            _currentDialogueCollection = null;
         }
     }
 }

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53615572b52c4b828e7f0db1eead5d75, type: 3}
+  m_Name: Dialogue_Level_4_Before
+  m_EditorClassIdentifier: 
+  audioTrack: {fileID: 11400000, guid: e214253b48040c5449ef07bba4d9f8bf, type: 2}
+  dialogues:
+  - actor: {fileID: 11400000, guid: df3a37c9f68d02e46b1a7354ec007426, type: 2}
+    avatar: {fileID: 11400000, guid: 897e54649409f6f4b8db482268278f99, type: 2}
+    text: I would never have thought that my vessel would turn against me.
+    avatarPosition: 0
+  - actor: {fileID: 11400000, guid: 515b7ad8f3a0b21468318044c63f368e, type: 2}
+    avatar: {fileID: 11400000, guid: 6c36034d7e9912f4c98cb675dc714934, type: 2}
+    text: Vessel? What are you talking about?
+    avatarPosition: 1
+  - actor: {fileID: 11400000, guid: df3a37c9f68d02e46b1a7354ec007426, type: 2}
+    avatar: {fileID: 11400000, guid: 897e54649409f6f4b8db482268278f99, type: 2}
+    text: You are the vessel that was born from the roots of the tree for me to occupy
+      your body, since mine has died.
+    avatarPosition: 0
+  - actor: {fileID: 11400000, guid: df3a37c9f68d02e46b1a7354ec007426, type: 2}
+    avatar: {fileID: 11400000, guid: 897e54649409f6f4b8db482268278f99, type: 2}
+    text: 'But nobody can withstand my strength, so I gave up on the idea. '
+    avatarPosition: 0
+  - actor: {fileID: 11400000, guid: df3a37c9f68d02e46b1a7354ec007426, type: 2}
+    avatar: {fileID: 11400000, guid: 897e54649409f6f4b8db482268278f99, type: 2}
+    text: "However, I have to admit. \r\nYou are the first one to make it this far.
+      \r\n"
+    avatarPosition: 0
+  - actor: {fileID: 11400000, guid: df3a37c9f68d02e46b1a7354ec007426, type: 2}
+    avatar: {fileID: 11400000, guid: 897e54649409f6f4b8db482268278f99, type: 2}
+    text: But your journey will end here.
+    avatarPosition: 0
+  - actor: {fileID: 11400000, guid: 515b7ad8f3a0b21468318044c63f368e, type: 2}
+    avatar: {fileID: 11400000, guid: 6c36034d7e9912f4c98cb675dc714934, type: 2}
+    text: We will see.
+    avatarPosition: 1

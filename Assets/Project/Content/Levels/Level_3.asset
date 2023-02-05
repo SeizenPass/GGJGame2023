@@ -15,6 +15,6 @@ MonoBehaviour:
   codeName: level_3
   targetSceneUnit: {fileID: 11400000, guid: e07ddd4a4a771d748b0624e8d40436b8, type: 2}
   requiredDialogue: {fileID: 0}
-  afterDialogue: {fileID: 0}
+  afterDialogue: {fileID: 11400000, guid: 4b5dae2d28046a847b5eb3e954fd56e7, type: 2}
   openingLevels:
   - {fileID: 11400000, guid: c6edf5a870b917d498c9b567185fed53, type: 2}

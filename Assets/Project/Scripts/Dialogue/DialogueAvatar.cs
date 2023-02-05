@@ -9,7 +9,10 @@ namespace Project.Dialogue
     public class DialogueAvatar : ScriptableObject
     {
         [SerializeField] private Sprite avatarSprite;
-
+        [SerializeField] private bool facingRight;
+        
         public Sprite AvatarSprite => avatarSprite;
+
+        public bool FacingRight => facingRight;
     }
 }

@@ -9,7 +9,7 @@ namespace Project.Dialogue
     {
         [SerializeField] private DialogueActor actor;
         [SerializeField] private DialogueAvatar avatar;
-        [SerializeField] private string text;
+        [SerializeField, TextArea] private string text;
         [SerializeField] private DialogueAvatarPosition avatarPosition;
 
         public DialogueActor Actor => actor;

@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   codeName: level_4
   targetSceneUnit: {fileID: 11400000, guid: 8640309ee30386e479ff3fb92476a47c, type: 2}
-  requiredDialogue: {fileID: 0}
-  afterDialogue: {fileID: 0}
+  requiredDialogue: {fileID: 11400000, guid: 6fb18ef05e016ea41a093cf6dedcd416, type: 2}
+  afterDialogue: {fileID: 11400000, guid: d7b5deb7aeed91f4ab335ea464781e77, type: 2}
   openingLevels: []

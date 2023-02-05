@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using Project.Audio;
 using Project.Dialogue.UI;
 using TMPro;
 using UnityEngine;
@@ -20,6 +21,8 @@ namespace Project.Dialogue
         private DialogueSideBindings left, right;
         [SerializeField] 
         private GameObject nextButton;
+        [SerializeField] private MusicPlayer musicPlayer;
+        
         
 
         [Header("Settings")] 
@@ -40,6 +43,12 @@ namespace Project.Dialogue
         {
             _currentDialogueCollection = _dialogueProxy.CurrentDialogueCollection;
             if (!_currentDialogueCollection) Debug.LogWarning("No dialogue!");
+            if (_currentDialogueCollection.AudioTrack)
+            {
+                musicPlayer.SetTrack(_currentDialogueCollection.AudioTrack);
+            }
+            musicPlayer.Play();
+            
             PlayNextLine();
         }
 
@@ -65,7 +74,24 @@ namespace Project.Dialogue
             side.NameContainer.Text.text = dialog.Actor.DisplayName;
             side.AvatarUI.AvatarBoxObject.SetActive(true);
             side.AvatarUI.AvatarContainer.sprite = dialog.Avatar.AvatarSprite;
+            if (dialog.AvatarPosition == DialogueAvatarPosition.Left)
+            {
+                if (!dialog.Avatar.FacingRight)
+                {
+                    side.AvatarUI.AvatarContainer.rectTransform.rotation = Quaternion.Euler(0, 180f, 0);
+                }
+            }
+            else
+            {
+                if (dialog.Avatar.FacingRight)
+                {
+                    side.AvatarUI.AvatarContainer.rectTransform.rotation = Quaternion.Euler(0, 180f, 0);
+                }
+            }
+            
             textBox.text = "";
+            
+            
 
             StartCoroutine(DialogProcess(dialog.Text));
 
@@ -99,6 +125,9 @@ namespace Project.Dialogue
             right.AvatarUI.AvatarBoxObject.SetActive(false);
             
             nextButton.SetActive(false);
+            left.AvatarUI.AvatarContainer.rectTransform.rotation = Quaternion.Euler(0, 0, 0);
+            right.AvatarUI.AvatarContainer.rectTransform.rotation = Quaternion.Euler(0, 0, 0);
+            
         }
     }
 
