@@ -29,6 +29,8 @@ namespace Project.Dialogue
         [Header("Events")] 
         [SerializeField] private UnityEvent onDialogFinished;
         [SerializeField] private UnityEvent onDialogRoutineFinished;
+        [SerializeField] private UnityEvent onDialogStartedSpeaking;
+        
         
         private Coroutine _dialogRoutine;
 
@@ -73,7 +75,8 @@ namespace Project.Dialogue
         private IEnumerator DialogProcess(string text)
         {
             var symbolCounter = 0;
-
+            
+            onDialogStartedSpeaking.Invoke();
             while (symbolCounter < text.Length)
             {
                 textBox.text += text[symbolCounter];

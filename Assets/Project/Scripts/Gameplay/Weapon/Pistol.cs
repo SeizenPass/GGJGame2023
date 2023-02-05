@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 using Zenject;
 
 namespace Project.Gameplay.Weapon
@@ -11,8 +12,9 @@ namespace Project.Gameplay.Weapon
         [SerializeField] private float range = 100;
         [SerializeField] private int ammo;
         [SerializeField] private LayerMask targetLayerMask;
-        
-        
+
+        public UnityEvent onShoot;
+
         [Header("Dependencies")]
         [SerializeField] private Animator animator;
 
@@ -33,6 +35,7 @@ namespace Project.Gameplay.Weapon
             if (_lastShotTime + cooldown > Time.time) return;
             _lastShotTime = Time.time;
 
+            onShoot.Invoke();
             RaycastHit hit;
             if (Physics.Raycast(_cameraAnchor.CurrentCamera.transform.position,
                     _cameraAnchor.CurrentCamera.transform.forward, out hit, range, targetLayerMask))
