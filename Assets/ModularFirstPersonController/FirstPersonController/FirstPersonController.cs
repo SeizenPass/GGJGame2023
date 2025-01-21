@@ -326,7 +326,8 @@ public class FirstPersonController : MonoBehaviour
         #region Jump
 
         // Gets input and calls jump method
-        if(enableJump && Input.GetKeyDown(jumpKey) && isGrounded)
+        // JoystickButton0 is A on Xbox
+        if(enableJump && (Input.GetKeyDown(jumpKey) || Input.GetKeyDown(KeyCode.JoystickButton0)) && isGrounded)
         {
             Jump();
         }
@@ -385,7 +386,7 @@ public class FirstPersonController : MonoBehaviour
             }
 
             // All movement calculations shile sprint is active
-            if (enableSprint && Input.GetKey(sprintKey) && sprintRemaining > 0f && !isSprintCooldown)
+            if (enableSprint && (Input.GetKey(sprintKey) || Input.GetKey(KeyCode.JoystickButton5)) && sprintRemaining > 0f && !isSprintCooldown)
             {
                 targetVelocity = transform.TransformDirection(targetVelocity) * sprintSpeed;
 

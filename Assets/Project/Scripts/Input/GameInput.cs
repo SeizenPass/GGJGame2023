@@ -61,7 +61,7 @@ namespace Project.Input
                     ""name"": ""Shoot"",
                     ""type"": ""Button"",
                     ""id"": ""d4f0de9b-a910-4ce0-be6e-8e476dc4eea0"",
-                    ""expectedControlType"": ""Button"",
+                    ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
@@ -70,7 +70,7 @@ namespace Project.Input
                     ""name"": ""Pause"",
                     ""type"": ""Button"",
                     ""id"": ""bc941ba7-6034-4025-bfe3-5631f8bf1134"",
-                    ""expectedControlType"": ""Button"",
+                    ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
@@ -90,8 +90,30 @@ namespace Project.Input
                 },
                 {
                     ""name"": """",
+                    ""id"": ""54f74174-ba49-43ab-9bcf-7d299c559c05"",
+                    ""path"": ""<Gamepad>/buttonWest"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Shoot"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""f212312e-7527-4f38-bae0-f8cedcebf86b"",
                     ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Pause"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8d181aaa-091a-4c97-b63a-87dee1d12494"",
+                    ""path"": ""<Gamepad>/start"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
